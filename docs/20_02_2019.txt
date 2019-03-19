@@ -1,0 +1,38 @@
+WebeC 20.02.2019
+
+Internet:
+Man braucht Adresse (IP) und Protokolle, um zu kommunizieren (Internet)
+Protokolle: http, https, smtp, ftp
+Internet != Web 
+WEB=WWW:
+Erfunden --> Tim Berners-Lee
+HTML + HTTP(S) 
+Ist eine Möglichkeit, auf die Medien zuzugreifen über den Internet.
+HTML:
+Ein Teil von SGML (wie auch XML)
+Genutzt um die Webseiten zu erstellen, ist eine Sprache (HyperText Markup Language)
+Es ist eigentlich nur eine Struktur, es gibt Struktur an.
+HTML 5 wichtig für uns
+<!Doctype html> das Erste (bei HTML5)! Dann kommen Tags
+empty tags: <tag.../>
+Entity: Die besondere Symbole mit HTML zu bezeichnen (Beispiel copyright Zeichen)
+<p> < </p> --> NICHT valid
+<p> &lt; </p>
+Prüfer: validator.nu / www.w3schools.com / selfHTML / HTML5test
+Warum Validierung? Nicht bei jedem Browser wird es gleich aussehen, falls es Fehler hat. Auch Google bei Ranking hat es nicht gerne, 
+einen nicht validen Code zu haben.
+Tags-Unterteilung:
+Block und Inline Tags
+Block: Grosses Inhalt von der Seite (h1-h7, p, lists..)
+Inline: sind die kleinen Elemente, die kleinen Inhalt haben ( bold text, images, links...)
+In inline elements darf es keine block elements haben.
+meta-tags: in head, werden nicht dargestellt, man fügt infos dazu. (bspw Autor, description, keywords...)
+<meta name = "author" content = "John Doe">
+<ol>: ordered list
+<ul>: unordered list
+<table>: 
+<em> --> italic
+<strong> --> bold
+<br /> nächste Linie
+DOM=Document Object Model (Ein Baum, der die Struktur aufzeigt)
+<span>...</span>: ist Inline Element.
